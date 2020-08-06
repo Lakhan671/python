@@ -4,3 +4,7 @@ for x in fruits:
 
   for x in "banana":
       print(x)
+
+for p in "":
+    print("p")
+else:print("empty string")
