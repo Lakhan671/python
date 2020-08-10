@@ -23,3 +23,8 @@ b=a-b;
 a=a-b;
 print(a)
 print(b)
+def sum_sub(a,b):
+    return a+b,a-b;
+sum,sub=sum_sub(5,3);
+print(sum)
+print(sub)
